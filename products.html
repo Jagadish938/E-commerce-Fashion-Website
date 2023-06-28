@@ -1,0 +1,397 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+
+    <!---google font link-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,700;1,300;1,400;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">  
+
+    <!-----font awesome 4 cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet"href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="product.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="login.css">
+
+</head>
+<body>   
+    
+<nav>
+    <div class="navbar">
+      <i class='bx bx-menu'></i>
+      <div class="logo">
+        <a href="index.html" class="active" data-link="home"> <img src="img/logo.png"  alt="logo" class="logo"  style="height: 191px;"></a>
+      </div>
+      <div class="nav-links">
+        <div class="sidebar-logo">
+          <span class="logo-name"></span>
+          <i class='bx bx-x' ></i>
+        </div>
+        <ul class="links">
+          <li><a href="index.html" class="home">Home</a></li>
+          <li>
+            <a href="#">Shop</a>
+              <i class='bx bxs-chevron-down htmlcss-arrow arrow  '></i>
+
+            <ul class="htmlCss-sub-menu sub-menu">
+              <li><a href="products.html">Mens Wear</a></li>
+              <li><a href="#">Shoes</a></li>
+              <li><a href="#">Tops</a></li>
+              
+            </ul>
+
+          </li>
+          <li><a href="about.html">About us</a></li>
+          <li><a href="contact.html">Contact us</a></li>
+          <div class="search-box">
+            <i class='bx bx-search'></i>
+            <div class="input-box">
+              <input type="text" placeholder="Search...">
+            </div>
+          </div> 
+          
+        </ul>
+      </div>
+       <div class="social_media">
+       	<a href="#" data-toggle="modal" data-target="#myModal">Login</a>
+       	<a href="#"data-toggle="modal" data-target="#myModal1">Sign Up</a>
+       </div>
+    </div>
+  </nav>
+</div>
+<div class="container">
+  <div class="row">
+      <div class="col-md-12">
+          <div class="modal-box">
+              <!-- Modal -->
+              <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                  <div class="modal-dialog" role="document">
+                      <div class="modal-content clearfix">
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                          <div class="modal-body">
+                              <p class="title">Welcome to Colourease</p>
+                              <form action="#" method="GET">
+                              <div class="form-group">
+                                  <span class="input-icon"><i class="fa fa-user"></i></span>
+                                  <input type="email" class="form-control" placeholder="Email" required>
+                              </div>
+                              <div class="form-group">
+                                  <span class="input-icon"><i class="fas fa-key"></i></span>
+                                  <input type="password" class="form-control" placeholder="Password" required>
+                              </div>
+                               <button class="btn">Login</button>
+                           </form>
+                              <div class="list">
+                                  <ul>
+                              <li><a href="">Forgot Password?</a></li>
+                              <li><a href="">Create Account</a></li>
+                          </ul>
+                          </div>
+                             
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+      <div class="col-md-12">
+          <div class="modal-box">
+              <!-- Modal -->
+              <div class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                  <div class="modal-dialog" role="document">
+                      <div class="modal-content clearfix">
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                          <div class="modal-body">
+                              <p class="title">Welcome to Colourease</p>
+                              <form action="#" method="POST">
+                              <div class="form-group">
+                               
+                                  <input type="text" class="form-control" placeholder="Firstname" required>
+                              </div>
+                              <div class="form-group">
+                               
+                                  <input type="text" class="form-control" placeholder="Secondname" required>
+                              </div>
+                              <div class="form-group">
+                               
+                                  <input type="email" class="form-control" placeholder="Email" required>
+                              </div>
+                              <div class="form-group">
+                                  
+                                  <input type="password" class="form-control" placeholder="Password" required>
+                              </div>
+                             
+                               <button class="btn">Create</button>
+                           </form>
+                              <div class="list">
+                                <ul>
+                              
+                              <li ><p>Have already an account?</p><a href="" data-link="modal-body"><span>Login</span></a></li>
+                          </ul>
+                          </div>
+                             
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+                <div class="small-container">
+                    <div class="row row-2">
+                        <h2 class="mens"><u> Mens Collections </u></h2>
+                        <h2>All Products</h2>
+                        <select>
+                            <option>Default Shorting</option>
+                            <option>Short by price</option>
+                            <option>Short by popularity</option>
+                            <option>Short by rating</option>
+                            <option>Short by sale</option>
+                        </select>
+                    </div>    
+
+                    <div class="row">
+                        <div class="col-4">
+                            <img src="img/product-4.jpg">
+                            <h4>Navyblue T-Shirt</h4>
+                            <div class="rating">
+                                <i class="fa fa-star" ></i>
+                                <i class="fa fa-star" ></i>
+                                <i class="fa fa-star" ></i>
+                                <i class="fa fa-star" ></i>
+                                <i class="fa fa-star-o" ></i>
+                            </div>
+                            <p>Rs.559.00</p>
+                        </div>
+
+                        <div class="col-4">
+                            <img src="img/product-5.jpg">
+                            <h4>Puma grey Shoes</h4>
+                            <div class="rating">
+                                <i class="fa fa-star" ></i>
+                                <i class="fa fa-star" ></i>
+                                <i class="fa fa-star" ></i>
+                                <i class="fa fa-star-half-o" ></i>
+                                <i class="fa fa-star-o" ></i>
+                            </div>
+                            <p>Rs.2759.00</p>
+                        </div>
+
+                        <div class="col-4">
+                            <img src="img/product-6.jpg">
+                            <h4>Green T-Shirt</h4>
+                            <div class="rating">
+                                <i class="fa fa-star" ></i>
+                                <i class="fa fa-star" ></i>
+                                <i class="fa fa-star" ></i>
+                                <i class="fa fa-star" ></i>
+                                <i class="fa fa-star-half-o" ></i>
+                            </div>
+                            <p>Rs.459.00</p>
+                        </div>
+
+                        <div class="col-4">
+                            <img src="img/product-7.jpg">
+                            <h4>Hrx Socks</h4>
+                            <div class="rating">
+                                <i class="fa fa-star" ></i>
+                                <i class="fa fa-star" ></i>
+                                <i class="fa fa-star" ></i>
+                                <i class="fa fa-star" ></i>
+                                <i class="fa fa-star-o" ></i>
+                            </div>
+                            <p>Rs.359.00</p>
+                        </div>
+                    </div> 
+                    
+                    <div class="row">
+                        <div class="col-4">
+                            <img src="img/product-8.jpg">
+                            <h4>Black Analog Watch</h4>
+                            <div class="rating">
+                                <i class="fa fa-star" ></i>
+                                <i class="fa fa-star" ></i>
+                                <i class="fa fa-star" ></i>
+                                <i class="fa fa-star" ></i>
+                                <i class="fa fa-star-o" ></i>
+                            </div>
+                            <p>Rs.1759.00</p>
+                        </div>
+
+                        <div class="col-4">
+                            <img src="img/product-9.jpg">
+                            <h4>Black belt Watch</h4>
+                            <div class="rating">
+                                <i class="fa fa-star" ></i>
+                                <i class="fa fa-star" ></i>
+                                <i class="fa fa-star" ></i>
+                                <i class="fa fa-star-half-o" ></i>
+                                <i class="fa fa-star-o" ></i>
+                            </div>
+                            <p>Rs.1159.00</p>
+                        </div>
+
+                        <div class="col-4">
+                            <img src="img/product-10.jpg">
+                            <h4>Nike black Shoes</h4>
+                            <div class="rating">
+                                <i class="fa fa-star" ></i>
+                                <i class="fa fa-star" ></i>
+                                <i class="fa fa-star" ></i>
+                                <i class="fa fa-star" ></i>
+                                <i class="fa fa-star-half-o" ></i>
+                            </div>
+                            <p>Rs.2550.00</p>
+                        </div>
+
+                        <div class="col-4">
+                            <img src="img/product-12.jpg">
+                            <h4>Black Sports Track</h4>
+                            <div class="rating">
+                                <i class="fa fa-star" ></i>
+                                <i class="fa fa-star" ></i>
+                                <i class="fa fa-star" ></i>
+                                <i class="fa fa-star" ></i>
+                                <i class="fa fa-star-o" ></i>
+                            </div>
+                            <p>Rs.1059.00</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-4">
+                            <img src="img/buy-2.jpg">
+                            <h4>Sparkx Sports Shoes</h4>
+                            <div class="rating">
+                                <i class="fa fa-star" ></i>
+                                <i class="fa fa-star" ></i>
+                                <i class="fa fa-star" ></i>
+                                <i class="fa fa-star" ></i>
+                                <i class="fa fa-star-o" ></i>
+                            </div>
+                            <p>Rs.750.00</p>
+                        </div>
+
+                        <div class="col-4">
+                            <img src="img/buy-3.jpg">
+                            <h4>Sports Track</h4>
+                            <div class="rating">
+                                <i class="fa fa-star" ></i>
+                                <i class="fa fa-star" ></i>
+                                <i class="fa fa-star" ></i>
+                                <i class="fa fa-star-half-o" ></i>
+                                <i class="fa fa-star-o" ></i>
+                            </div>
+                            <p>Rs.550.00</p>
+                        </div>
+
+                        <div class="col-4">
+                            <img src="img/buy-1.jpg">
+                            <h4>Red Printed T-Shirt</h4>
+                            <div class="rating">
+                                <i class="fa fa-star" ></i>
+                                <i class="fa fa-star" ></i>
+                                <i class="fa fa-star" ></i>
+                                <i class="fa fa-star" ></i>
+                                <i class="fa fa-star-half-o" ></i>
+                            </div>
+                            <p>Rs.450.00</p>
+                        </div>
+
+                        <div class="col-4">
+                            <img src="img/exclusive.png" alt="">
+                            <h4>Smart Watch</h4>
+                            <div class="rating">
+                                <i class="fa fa-star" ></i>
+                                <i class="fa fa-star" ></i>
+                                <i class="fa fa-star" ></i>
+                                <i class="fa fa-star" ></i>
+                                <i class="fa fa-star-o" ></i>
+                            </div>
+                            <p>Rs.1950.00</p>
+                        </div>
+                    </div>
+                    <div class="page-btn">
+                        <span>1</span>
+                        <span>2</span>
+                        <span>3</span>
+                        <span>4</span>
+                        <span>&#8594;</span>
+                    </div>
+                </div>
+
+ <!-------footer ------->   
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col-3">
+                        <h3>Useful Link</h3>
+                        <ul>
+                            <li>Coupons</li>
+                            <li>Blog Post</li>
+                            <li>Return Policy</li>
+                            <li>Join Affiliate</li>
+                        </ul>
+                    </div>
+                    <div class="footer-col-4">
+                        <h3>Follow us</h3>
+                        <ul>
+                            
+			<a href="https://www.facebook.com/profile.php?id=100085940662357" target="_blank"><i class='bx bxl-facebook'></i></a>
+			<a href="https://twitter.com/JagadishReddy1" target="_blank"><i class='bx bxl-twitter' ></i></a>
+			<a href="https://www.instagram.com/solitude_nani/" target="_blank"><i class='bx bxl-instagram-alt' ></i></a>
+			<a href="jagadish.y.official@gmail.com" target="_blank"><i class='bx bxl-gmail'></i></a>
+                        </ul>
+                    </div>
+                </div>
+                <hr>
+                <p class="Copyright">Copyright-2023 - Colourease</p>
+            </div>
+        </div>
+
+
+</body>
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+  <script src="script.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+  <script>
+   $(window).on('scroll',function(){
+      if($(window).scrollTop()){
+      	$('nav').addClass('mainNav_sticky');
+      }
+      else{
+      	$('nav').removeClass('mainNav_sticky');
+      }
+
+   });
+   $(window).on('scroll',function(){
+   if($(window).scrollTop()){
+   $('htmlCss-sub-menu').addClass('mainNav_sticky');
+   }
+else{
+	 $('htmlCss-sub-menu').removeClass('mainNav_sticky');
+
+}
+
+   	});
+</script>
+</html>

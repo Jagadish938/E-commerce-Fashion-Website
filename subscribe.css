@@ -1,0 +1,169 @@
+.contact .container .contact-inner {
+    margin-top: 8rem;
+}
+
+.contact .container .contact-inner .contact-left {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 1.5rem;
+    margin-bottom: 5rem;
+}
+#contact{
+    text-align: center;
+    
+}
+.contact{
+    /* background-image: url(https://cdn.pixabay.com/photo/2018/02/06/08/04/orange-3134148_640.png); */
+    background: rgb(121,43,9);
+    background: linear-gradient(90deg, rgba(121,43,9,1) 0%, rgba(93,66,76,1) 20%, rgba(46,57,20,1) 41%, rgba(55,39,25,1) 53%, rgba(36,26,0,1) 65%, rgba(42,46,13,1) 80%, rgba(27,46,25,1) 93%);
+    background-repeat: no-repeat;
+    display: flex;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 20vh;
+    justify-content: stretch;
+}
+
+
+.contact .container .contact-inner .contact-left .box {
+    display: flex;
+    gap: 2.5rem;
+    color: white;
+}
+.title h3{
+    color: white;
+}
+
+.contact .container .contact-inner .contact-left .box .icon {
+    width: 7rem;
+    height: 7rem;
+    border-radius: 50%;
+    background-color: black;
+    color: lightseagreen;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+}
+
+.contact .container .contact-inner .contact-left .box .details h3 {
+    font-size: 2.4rem;
+    margin-bottom: .1rem;
+}
+.contact .container .contact-inner .contact-left .box .detail h3{
+    margin-left: 20px;
+    
+}
+
+.contact .container .contact-inner .contact-left .box .details span a {
+    color: white;
+}
+
+.contact .container .contact-inner .contact-right form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.contact .container .contact-inner .contact-right form .form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.contact .container .contact-inner .contact-right form .form-group input,
+.contact .container .contact-inner .contact-right form .form-group textarea {
+    width: 100%;
+    height: 5.8rem;
+    padding: 0 3rem;
+    font-size: 1.6rem;
+    background-color: transparent;
+    border: .1rem solid rgba(222, 120, 10, 0.3);
+    border-radius: .8rem;
+    color: white;
+    outline: none;
+    transition: all .3s ease;
+}
+
+.contact .container .contact-inner .contact-right form .form-group input:focus,
+.contact .container .contact-inner .contact-right form .form-group textarea:focus {
+    border-color: rgba(255 255 255 / .5);
+    ;
+}
+
+.contact .container .contact-inner .contact-right form .form-group input::placeholder,
+.contact .container .contact-inner .contact-right form .form-group textarea::placeholder {
+    color: var(--mainColor);
+}
+
+.contact .container .contact-inner .contact-right form .form-group input:focus::placeholder,
+.contact .container .contact-inner .contact-right form .form-group textarea:focus::placeholder {
+    opacity: 0;
+}
+
+.contact .container .contact-inner .contact-right form .form-group textarea {
+    font-family: var(--fontFamilyMain);
+    width: 100%;
+    height: 20rem;
+    padding: 1.6rem 3rem 3rem;
+    resize: none;
+}
+
+.contact .container .contact-inner .contact-right form .btn {
+    background-color: white;
+    padding: 1.8rem 3.8rem;
+    display: inline-block;
+    align-self: flex-start;
+    font-size: 1.5rem;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 50px;
+}
+
+.contact .container .contact-inner .contact-right form .btn span {
+    position: relative;
+    z-index: 2;
+    transition: all .3s ease;
+}
+
+footer {
+    background: rgb(36,26,0);
+    background: linear-gradient(90deg, rgba(36,26,0,1) 5%, rgba(121,43,9,1) 35%, rgba(93,66,76,1) 85%, rgba(65,119,60,1) 100%);
+    padding: 6rem 0;
+    color: white;
+    /* background-color: orangered; */
+}
+
+footer .container {
+    text-align: center;
+}
+
+footer .container p {
+    font-family: var(--fontFamilyExtra);
+}
+
+
+
+@media(min-width: 992px){
+
+.contact .container .contact-inner {
+    display: flex;
+}
+
+.contact .container .contact-inner .contact-left,
+.contact .container .contact-inner .contact-right {
+    width: 50%;
+}
+
+.contact .container .contact-inner .contact-left .box .icon {
+    width: 8.8rem;
+    height: 8.8rem;
+}
+
+.contact .container .contact-inner .contact-left .box .details h3 {
+    font-size: 2.8rem;
+}
+}

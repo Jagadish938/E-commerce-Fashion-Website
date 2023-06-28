@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="modal-box">
+                    <!-- Modal -->
+                    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content clearfix">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                                <div class="modal-body">
+                                    <p class="title">Welcome to Colourease</p>
+                                    <form action="validation.php" method="GET">
+                                    <div class="form-group">
+                                        <span class="input-icon"><i class="fa fa-user"></i></span>
+                                        <input type="email" class="form-control" placeholder="Email" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <span class="input-icon"><i class="fas fa-key"></i></span>
+                                        <input type="password" class="form-control" placeholder="Password" required>
+                                    </div>
+                                     <button class="btn">Login</button>
+                                 </form>
+                                    <div class="list">
+                                        <ul>
+                                    <li><a href="">Forgot Password?</a></li>
+                                    <li><a href="">Create Account</a></li>
+                                </ul>
+                                </div>
+                                   
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- SignUp Page -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="modal-box">
+                    <!-- Modal -->
+                    <div class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content clearfix">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                                <div class="modal-body">
+                                    <p class="title">Welcome to Colourease</p>
+                                    <form action="Registration.php" method="POST">
+                                    <div class="form-group">
+                                     
+                                        <input type="text" class="form-control" placeholder="Firstname" required>
+                                    </div>
+                                    <div class="form-group">
+                                     
+                                        <input type="text" class="form-control" placeholder="Secondname" required>
+                                    </div>
+                                    <div class="form-group">
+                                     
+                                        <input type="email" class="form-control" placeholder="Email" required>
+                                    </div>
+                                    <div class="form-group">
+                                        
+                                        <input type="password" class="form-control" placeholder="Password" required>
+                                    </div>
+                                   
+                                     <button class="btn">Create</button>
+                                 </form>
+                                    <div class="list">
+                                        <ul>
+                                    
+                                    <li ><p>Have already an account?</p><a href=""><span>Login</span></a></li>
+                                </ul>
+                                </div>
+                                   
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
